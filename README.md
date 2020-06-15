@@ -1,3 +1,7 @@
+# attention!
+
+This hack was useful a long time ago, it is only published to keep memory. Currently it is very easy to program a PIC with an arduino. Who would have thought it?
+
 # PICSTART-16C RETRAIN
 
 Programmer PICSTART-16C of Microchip was designed to program microcontrollers PIC16C64 and PIC16C74 using software for the almost extinct DOS, later was possible the programming of some other microcontrollers.
