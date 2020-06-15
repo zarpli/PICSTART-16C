@@ -98,7 +98,7 @@ Made the modifications, the disposition of lines RS232 will be as it is describe
 <p align="center"><img src=/images/pspc16-signal.png></p>
 <p align="center">Table 1. – Disposition of lines.</p>
 
-Install the WinPic800 program, go to the hardware configuration and configure as seen in the figure 9.
+Install the WinPic800 program, download the file <a href="/hwp/PICSTART-16C.hwp" target="_blank">PICSTART-16C</a>, copy in the /WinPic800/Hardware directory, go to the hardware configuration and select PICSTART-16C as it shows in figure 9.
 
 <p align="center"><img src=/images/pspc16-winpic800.png></p>
 <p align="center">Figure 9. – Configuration of software WinPic800.</p>
