@@ -141,7 +141,7 @@ Is essential that the power supply is the one that provides Microchip or at leas
 
 The programmer requires a source of +9 volts +/- 10% @ 500 mA (max), with positive center of 2.5 mm.
 
-If he does not count on the original source or equivalent, he makes the following change to be able to use some other source with more than 9 and less than 20 volts.
+*If he does not count on the original source or equivalent*, he makes the following change to be able to use some other source with more than 9 and less than 20 volts.
 
 A voltage regulator 7809 will be necessary and the form to incorporate it is described next:
 
