@@ -6,7 +6,7 @@ The images were made in Ms Paint :)
 
 # PICSTART-16C RETRAIN
 
-Programmer PICSTART-16C of Microchip was designed to program microcontrollers PIC16C64 and PIC16C74 using software for the almost extinct DOS, later was possible the programming of some other microcontrollers.
+Programmer PICSTART-16C (released 1994) of Microchip was designed to program microcontrollers PIC16C64 and PIC16C74 using software for the almost extinct DOS, later was possible the programming of some other microcontrollers.
 
 The programmer now is a relic, is governed by the microcontroller PIC17C42 who also is obsolete. But like all products of Microchip, this programmer has components of very good quality, so it is possible to transform this relic, in a useful programmer.
 
