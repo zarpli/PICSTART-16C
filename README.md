@@ -103,7 +103,7 @@ Install the WinPic800 program, download the file <a href="/hwp/PICSTART-16C.hwp"
 <p align="center"><img src=/images/pspc16-winpic800.png></p>
 <p align="center">Figure 9. – Configuration of software WinPic800.</p>
 
-# Tests – PICSTART-16C RETRAIN
+# TEST
 
 In the same screen that is in figure 8 it finds the function TEST to verify the operation of each one of the lines of the programmer.
 
