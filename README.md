@@ -22,12 +22,13 @@ The conversion of the programmer would not have sense if it is not have the appr
 
 On the other hand, the use of the software IC-Prog, created and maintained by the equipment of Bonny Gijzen.
 
-Conversion – Step 1.
+##### Conversion – Step 1.
 
 Retire of the card the Q2 transistor (2907A) and in its place insert the transistor BC548 but with inverted position, this show in figures 2 and 3.
 
 <p align="center"><img src=/images/pspc16-base.png></p>
 <p align="center">Figure 2. – Original Transistor Q2: 2907A.</p>
+
 
 <p align="center"><img src=/images/pspc16-BC548.png></p>
 <p align="center">Figure 3. – New Q2 transistor: BC548.</p>
@@ -35,9 +36,9 @@ Retire of the card the Q2 transistor (2907A) and in its place insert the transis
 This new transistor will provide the capacity to control the tension of programming (13 volts) with logical levels of 0 and 5 volts obtained directly of adapter MAX232, its signal corresponding to TXD.
 
 <p align="center"><img src=/images/pspc16-Q2.png></p>
-<p align="center">Figure 2 BIS. – Change of transistor.</p>
+<p align="center">Figure 3 BIS. – Change of transistor.</p>
 
-Conversion – Step 2.
+##### Conversion – Step 2.
 
 Insert in the programmer the circuit framed with red color of figure 4. This circuit is gotten up to obtain the data line PGDATA. This signal corresponds to DTR.
 
@@ -49,20 +50,22 @@ Several ways exist to integrate this resistance and Zener diode to the programme
 <p align="center"><img src=/images/pspc16-zener.png></p>
 <p align="center">Figure 5. – Integration of resistance and Zener diode.</p>
 
+
 <p align="center"><img src=/images/pspc16-zeneric.png></p>
 <p align="center">Figure 5 BIS. – Integration of the circuit.</p>
 
-Conversion – Step 3.
+##### Conversion – Step 3.
 
 Remove the microcontroller PIC17C42 and you make the connections that show with red color in figure 6.
 
-* 1. – PIN 03 – PIN 34 – PIN 30
-* 2. – PIN 38 – PIN 29
-* 3. – PIN 10 – PIN 17
-* 4. – PIN 18 – PIN 21 – PIN 22
+* PIN 03 – PIN 34 – PIN 30
+* PIN 38 – PIN 29
+* PIN 10 – PIN 17
+* PIN 18 – PIN 21 – PIN 22
 
 <p align="center"><img src=/images/pspc16-conexiones.png></p>
 <p align="center">Figure 6. – Marked additional Connections with red color.</p>
+
 
 <p align="center"><img src=/images/pspc16-conexionesic.png></p>
 <p align="center">Figure 6 BIS. – Additional Connections.</p>
@@ -72,7 +75,7 @@ If you decides to insert back the PIC17C40 to give a good aspect to the programm
 <p align="center"><img src=/images/pspc16-pinesout.png></p>
 <p align="center">Figure 7. – Pins retired of socket 40.</p>
 
-Conversion – Step 4.
+##### Conversion – Step 4.
 
 Make the cut of the track that unites pin 8 with pin 12 of socket ZIF, this track is in the back part of the card, this show in the box red of figure 8.
 
@@ -89,18 +92,19 @@ Made the modifications, the disposition of lines RS232 will be as it is describe
 <p align="center"><img src=/images/pspc16-signal.png></p>
 <p align="center">Table 1. – Disposition of lines.</p>
 
-Install the WinPic800 program, download the file PICSTART-16C RET, unzip in the /WinPic800/Hardware directory, go to the hardware configuration and select PICSTART-16C RET as it shows in figure 9.
+Install the WinPic800 program, go to the hardware configuration and configure as seen in the figure 9.
 
 <p align="center"><img src=/images/pspc16-winpic800.png></p>
 <p align="center">Figure 9. – Configuration of software WinPic800.</p>
 
-Tests – PICSTART-16C RETRAIN
+# Tests – PICSTART-16C RETRAIN
 
 In the same screen that is in figure 8 it finds the function TEST to verify the operation of each one of the lines of the programmer.
 
 Verify that the levels of tension of each line are approximately within the rank of table 2. The lines are arranged as it is in figure 10.
 
-Table 2. – Levels of tension.
+<p align="center"><img src=/images/pspc16-rangos.png></p>
+<p align="center">Table 2. – Levels of tension.</p>
 
 The DataIn line is associate directly with line Data so the state of the line can review its operation when modifying Data.
 After verifying that the tensions are within the rank of table 2, it inserts some PIC of 40 or 28 pins in socket ZIF as one is in figure 10 and it proves the options to detect device, to read, to program, to verify and to erase.
@@ -135,12 +139,12 @@ If he does not count on the original source or equivalent, he makes the followin
 
 A voltage regulator 7809 will be necessary and the form to incorporate it is described next:
 
-1. Remove the rectifying bridge CR1 and makes a small perforation as it is noticeable with red color in figure 13.
+##### 1. Remove the rectifying bridge CR1 and makes a small perforation as it is noticeable with red color in figure 13.
 
 <p align="center"><img src=/images/pspc16-perforacion.png></p>
 <p align="center">Figure 13. – Position of rectifying bridge CR1 and small perforation.</p>
 
-2. Inserts and weld the regulator 7809 with the position shown in figure 14.
+##### 2. Inserts and weld the regulator 7809 with the position shown in figure 14.
 
 <p align="center"><img src=/images/pspc16-7809.png></p>
 <p align="center">Figure 14. – Position of regulator 7809.</p>
@@ -148,7 +152,7 @@ A voltage regulator 7809 will be necessary and the form to incorporate it is des
 <p align="center"><img src=/images/pspc16-7809Dic.png></p>
 <p align="center">Figure 14 BIS. – Position and weld of regulator 7809.</p>
 
-3. Make a bridge (a simple wire) between remain orifices, as it is in figure 15.
+##### 3. Make a bridge (a simple wire) between remain orifices, as it is in figure 15.
 
 <p align="center"><img src=/images/pspc16-puente.png></p>
 <p align="center">Figure 15. – Bridge between leftover orifices.</p>
@@ -156,8 +160,8 @@ A voltage regulator 7809 will be necessary and the form to incorporate it is des
 <p align="center"><img src=/images/pspc16-7809ic.png></p>
 <p align="center">Figure 15 BIS. – Regulating 7809 and bridge.</p>
 
-4. Connects and reviews the levels of tension in the R4 resistance, the tension in this resistance will have to agree with its labels GND and +9V.
+##### 4. Connects and reviews the levels of tension in the R4 resistance, the tension in this resistance will have to agree with its labels GND and +9V.
 
-5.- Enjoy! 
+##### 5. Enjoy! 
 
 
